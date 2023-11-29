@@ -1,0 +1,138 @@
+@media screen and (min-width: 1420px) {
+    .container {
+        width: 1440px;
+        padding-inline: 250px;
+    }
+
+    .key-group {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .key-container {
+        padding-block: 60px;
+    }
+
+    .keyboard {
+        width: 445px;
+    }
+
+    .paragraph {
+        width: 350px;
+    }
+
+    .short-key {
+        margin-left: 0;
+        width: 494px;
+    }
+
+    .image-key {
+        padding-top: 0;
+    }
+
+    .bitmaps {
+        display: grid;
+        grid-template-columns: 190px 390px auto;
+        gap: 30px;
+    }
+
+    .red {
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+    }
+
+    .laptop {
+        height: 100%;
+    }
+
+    .wireless {
+        display: block;
+        padding-inline: 60px;
+        padding-block: 30px;
+    }
+
+    .wireless h1 {
+        text-align: start;
+    }
+
+    .wireless p {
+        text-align: start;
+        width: 235px;
+    }
+
+    .Everything {
+        display: grid;
+        grid-template-columns: 260px 260px 260px 260px;
+    }
+
+    .compatible {
+        display: block;
+    }
+
+    .compatible h1 {
+        width: 61px;
+    }
+
+    .compatible p {
+        text-align: start;
+        width: 218.517px;
+        padding-top: 5px;
+    }
+
+    .bluetooth {
+        padding-block: 60px;
+        display: block;
+    }
+
+    .bluetooth h1 {
+        text-align: start;
+        width: 162px;
+    }
+
+    .bluetooth p {
+        text-align: start;
+        width: 218.517px;
+    }
+
+    .battery {
+        display: block;
+    }
+
+    .battery h1 {
+        text-align: start;
+    }
+
+    .battery p {
+        text-align: start;
+        width: 218.517px;
+    }
+
+    .rgb {
+        padding-block: 60px;
+        display: block;
+    }
+
+    .rgb h1 {
+        text-align: start;
+    }
+
+    .rgb p {
+        text-align: start;
+        width: 218.517px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 200px 300px;
+        padding-inline: 260px;
+    }
+
+    .bitmaps { 
+        gap: 455px;
+    }
+
+    .header-group {
+        gap: 745px;
+    }
+}

@@ -1,0 +1,106 @@
+@media screen and (min-width: 768px) {
+    .container {
+        overflow: hidden;
+        width: 768px;
+        padding-inline: 24px;
+    }
+    
+    .header-group {
+        gap: 475px;
+    }
+
+    .key-group {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-key {
+        padding-top: 0;
+    }
+
+    .short-key {
+        margin-left: 50px;
+        width: 654px;
+        height: 377px;
+    }
+
+    .images {
+        justify-content: center;
+    }
+
+    .red {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    .wireless {
+        flex-direction: unset;
+        padding-inline: 15px;
+    }
+
+    .wireless h1 {
+        text-align: start;
+    }
+
+    .wireless p  {
+        width: 360px;
+        text-align: start;
+    }
+
+    .Everything {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .compatible {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .compatible h1 {
+        text-align: start;
+    }
+
+    .compatible p {
+        text-align: start;
+    }
+
+    .bluetooth {
+        padding-block: 60px;
+        display: block;
+    }
+
+    .bluetooth h1 {
+        text-align: start;
+    }
+
+    .bluetooth p {
+        text-align: start;
+    }
+
+    .battery {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .battery h1 {
+        text-align: start;
+    }
+
+    .battery p {
+        text-align: start;
+    }
+
+    .rgb {
+        padding-block: 60px;
+        display: block;
+    }
+
+    .rgb h1 {
+        text-align: start;
+    }
+
+    .rgb p {
+        text-align: start;
+    }
+}
