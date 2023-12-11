@@ -1,0 +1,49 @@
+@media screen and (min-width: 1140px) {
+    .container {
+        max-width: 1140px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Group-1 {
+        padding-bottom: 280px;
+    }
+
+    .head {
+        color: #FFF;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 110% */
+letter-spacing: -0.521px;
+width: 525px;
+text-align: start;
+    }
+
+    .Group-1 {
+        width: inherit;
+    }
+
+    .paragraph {
+        width: 525px;
+        text-align: start;
+    }
+
+    .first-button {
+        width: 540px;
+   }
+
+   .reg-form {
+    width: 540px;
+   }
+
+   .first-input {
+        width: 492px;
+   }
+}
+    

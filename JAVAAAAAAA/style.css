@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@200&family=Plus+Jakarta+Sans:wght@600&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background-image: url(Group\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1204px;
+}
+
+.container {
+    padding-inline: 24px;
+    padding-block: 88px;
+    max-width: 375px;
+}
+
+.Group-1 {
+    display: flex;
+width: 327px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16px;
+}
+
+.Group-2 {
+    padding-block: 64px;
+}
+
+.head {
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 128.571% */
+letter-spacing: -0.292px;
+}
+
+.paragraph {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+
+.first-button {
+    width: 327px;
+height: 88px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #5E54A4;
+box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+border: 0;
+}
+
+.paragraph-2 strong{
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 173.333% */
+letter-spacing: 0.268px;
+}
+
+.paragraph-2 {
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.268px;
+}
+
+.first-input {
+    width: 279px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #DEDEDE;
+background: #FFF;
+padding-inline: 16px;
+}
+
+.reg-form {
+    padding-block: 24px;
+    padding-inline: 24px;
+    width: 327px;
+height: 442px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.second-btn {
+  border-radius: 5px;
+background: #38CC8B;
+box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+height: 56px; 
+border: 0;
+cursor: pointer;
+pointer-events: auto;
+}
+
+.second-btn p {
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 173.333% */
+letter-spacing: 1px;
+}
+
+.paragraph-3 {
+    color: #BAB7D4;
+text-align: center;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px; /* 190.909% */
+}
+
+.paragraph-3 strong {
+    color: #FF7979;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+}
