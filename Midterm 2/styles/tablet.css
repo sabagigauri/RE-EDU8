@@ -1,0 +1,50 @@
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .Everything {
+        display: flex;
+        flex-direction: row;
+        padding-block: 30px;
+    }
+
+    .Group-1 {
+        gap: 508px;
+    }
+
+    .coffee {
+        width: 238px;
+        height: 389px;
+        border-radius: 158.5px; 
+        z-index: 2;
+    }
+
+    .rectangle {
+        z-index: 2;
+        top: -390px;
+    }
+
+    .rectangle-2 {
+        z-index: 2;
+    }
+
+    .icon {
+        z-index: 1;
+        margin-top: -653px;
+        display: inherit;
+    }
+
+    .first-button {
+        z-index: 2;
+    }
+
+    .Everything-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .bracket-1 {
+        height: 345px;
+    }
+}
