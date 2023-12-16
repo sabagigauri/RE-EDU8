@@ -1,0 +1,637 @@
+.img {
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-inline: 15px;
+}
+
+* {
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2c2c32;
+    position: fixed;
+  width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    margin-left: 10px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    justify-content: center;
+  display: flex;
+  width: 200px;
+}
+
+.nav-link {
+    display: none;
+    color: #fff;
+    height: 50px;
+}
+
+.download-search-box {
+    display: none;
+    margin-right: 450px;
+    margin-left: 150px;
+}
+
+
+
+nav {
+    display: flex;
+    margin-left: -100px;
+}
+
+.notification a {
+    color: #0098ff;
+}
+
+nav a {
+    padding: 10px;
+}
+
+.search-box button {
+    background: transparent;
+    border: 0;
+    width: 25px;
+}
+
+.search-box input {
+    background-color: transparent;
+    border: 0;
+    width: 120px;
+    margin-left: 7px;
+    color: #fff;
+}
+
+.search-box {
+    border: 0;
+}
+
+.notification {
+    background-color: #25252b;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-block: 15px;
+}
+
+.welcome-section {
+    background-color: #2c2c32;
+}
+
+.download-col h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.download-col p {
+    color: rgba(255,255,255,.6);
+    font-weight: 300;
+}
+
+.download-col strong {
+    margin-left: 20px;
+}
+
+.download-vscode {
+    color: #fff;
+  background-color: #0066b8;
+  padding: 10px 0;
+  font-size: 1.8rem;
+  width: 100%;
+  font-family:  "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-weight: 600;
+  height: 65px;
+  font-size: 20px;
+  border: 0;
+    display: grid;
+}
+
+.build-type {
+    margin-top: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255,255,255,.9);
+}
+
+.tooltip {
+    background-color: #25252b;
+    margin-top: 15px;
+    color: rgba(255,255,255,.6);
+    border-radius: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+.tooltip a {
+    text-decoration: none;
+    color: #0098ff;
+    
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #25252b;
+    top: -5px;
+    right: 15px;
+    transform: rotate(45deg);
+}
+
+.value-props {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container img {
+    width: 40px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.text-container p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.social {
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 346.85px;
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    width: 1170px;
+    height: 226.85px;
+    display: flex;
+    
+}
+
+.tweet-1 {
+    width: 373.333px;
+    height: 191.85px;
+    margin-top: 50px;
+}
+
+.twt-icon-1 {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+}
+
+.twt-txt-1 {
+    margin-top: -70px;
+    margin-left: 73px;
+  color: #6e6e6e;
+}
+
+.dzl {
+    padding-right: 5px;
+    color: black;
+  font-weight: 700
+}
+
+.tweet-body {
+    font-weight: 300;
+  font-size: 20px;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+  margin-left: 75px;
+}
+
+.tweet-body a {
+    text-decoration: none;
+}
+
+.tweet-2 {
+    width: 373.333px;
+    height: 191.85px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.twt-icon-2 {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+    margin-left: -7px
+}
+
+.twt-txt-2 {
+    color: #6e6e6e;
+    margin-top: -70px;
+    margin-left: 73px;
+}
+
+.tweet-body-2 {
+    font-weight: 300;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    padding-left: 69px;
+    font-size: 20px;
+}
+
+.Intellisense {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.Intellisense-text {
+    width: 652.5px;
+    height: 218px;
+    
+  margin-top: 50px;
+  font-size: 19px;
+  line-height: 3rem;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
+.intel-png {
+    margin-top: 100px;
+  margin-left: 250px;
+}
+
+#txtt {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.debugging {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f5f5f5;
+}
+
+#txtt2 {
+    margin-top: 100px;
+  margin-left: 200px;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+#txtt3 {
+    margin-left: 200px;
+    font-weight: 100;
+  font-size: 2rem;
+}
+
+#surf {
+    width: 400px;
+    
+}
+
+.box-9{
+    width: 100%;
+    height: 476.567px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.box-9-container{
+    width: 1170px;
+    height: 240px;
+    position: absolute;
+    left: 350px;
+    top: 60px;
+}
+.box-9-p{
+    color: #242424;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 100;
+    font-family: 'Segoe UI',;
+    position: absolute;
+    left: 480px;
+    top: -50px;
+}
+.javascript{
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+.javascript-2{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+.Python-1{
+    position: absolute;
+    top: 70px;
+    left: 267px;
+}
+.Python-2{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+.java-1{
+    position: absolute;
+    top: 71px;
+    left: 395px;
+}
+.java-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    top: 60px;
+    left: 420px;
+}
+.markdown-1{
+    position: absolute;
+    top: 85px;
+    left: 523px;
+
+}
+.markdown-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    top: 60px;
+    left: 545px;
+}
+.typescript-1{
+    position: absolute;
+    top: 68px;
+    left: 705px;
+}
+.typescript-2{
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    top: 60px;
+    left: 730px;
+}
+.c-1{
+    position: absolute;
+    top: 68px;
+    left: 875px;
+}
+.c-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    left: 900px;
+    top: 60px;
+}
+.json-1{
+    position: absolute;
+    top: 120px;
+    left: 127px;
+}
+.json-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    left: 150px;
+    top: 110px;
+}
+.powershell-1{
+    position: absolute;
+    top: 120px;
+    left: 265px;
+}
+.powershell-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    top: 110px;
+    left: 290px;
+}
+.html-1{
+    position: absolute;
+    top: 120px;
+    left: 397px;
+}
+.html-2{
+    position: absolute;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    top: 110px;
+    left: 420px;
+}
+.cc-1{
+    position: absolute;
+    left: 533px;
+    top: 120px;
+}
+.cc-2{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Segoe UI',;
+    line-height: 40px;
+    font-weight: 400;
+    left: 555px;
+    top: 110px;
+}
+.php-1{
+    position: absolute;
+    left: 705px;
+    top: 120px;
+}
+.php-2{
+    position: absolute;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    top: 110px;
+    left: 730px;
+}
+.yaml-1{
+    position: absolute;
+    left: 875px;
+    top: 120px;
+}
+.yaml-2{
+    position: absolute;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Segoe UI',;
+    top: 110px;
+    left: 900px;
+}
+.Language>a{
+    text-decoration: none;
+    color: #0071bc;
+    width: 382.083px;
+    height: 24px;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    position: absolute;
+    left: 370px;
+    top: 150px;
+    transition: 1s;
+}
+.Language>a:hover{
+    text-decoration: underline;
+}
+.btn-1{
+    width: 220px;
+    height: 55px;
+    background-color: #0066b8;
+    border: none;
+    color: #fff;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+.btn-1>a{
+    font-size: 16px;
+    line-height: 28.5667px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI',;
+    border-radius: 2px;
+}
+
+.alt-download-selection .container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.alt-download-selection .card-container {
+    display: grid;
+    gap: 15px;
+    align-content: center;
+    justify-items: center;
+}
+
+.button {
+    color: #fff;
+    background-color: #0066b8;
+    width: 100%;
+    text-align: center;
+}
+
+.card-container > div {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+#Mac {
+    margin-top: -100px;
+}
+
+.license-section {
+    background-color: #f5f5f5;
+}
+
+.license-section .container {
+    text-align: center;
+    display: grid;
+    padding: 50px;
+}
+
+.license-section .license-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.license-container a {
+    color: #0066b8;
+}
+
+.container .license-info{
+    padding: 38px 178px;
+}
+
+footer {
+    background-color: #2c2c32;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    text-align: center;
+}
+
+footer  li {
+    float: left;
+    margin: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.copyright {
+    display: grid;
+}
+
+.copyright h6 {
+    margin: 0;
+}
