@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section { 
+display: flex;
+  gap: 200px;
+  padding-top: 100px;
+}
+
+.num h1 {
+    font-family: 'Inter', sans-serif;
+    color: #007FDB;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 150px;
+}
+
+
+
+.card {
+flex-shrink: 0;
+display: flex;
+border-radius: 10px 10px 0px 0px;
+justify-content: center;
+flex-direction: column;
+}
+
+.section {
+    padding-inline: 29px;
+    display: flex;
+    gap: 10px;
+    padding-block: 36px;
+    flex-direction: column;
+}
+
+#textbox {
+    display: flex;
+padding: 12px 100px 13px 14px;
+align-items: center;
+border-radius: 5px;
+background: #EBEFF2;
+border: 0;
+}
+
+.add {
+    display: flex;
+    width: 88px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 5px;
+background: #20EEB0;
+border: 0;
+cursor: pointer;
+  pointer-events: auto;
+}
+
+.txt-btn {
+    display: flex;
+  gap: 10px;
+}
+
+.btn-1 {
+  display: flex;
+  background-image: url('akar-icons_trash-can.svg');
+  width: 28px;
+  height: 28px;
+  border-color: white;
+  background-repeat: no-repeat;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
+
+li div {
+  display: flex;
+}
+
+.input-1 {
+  border-radius: 100%;
+}
