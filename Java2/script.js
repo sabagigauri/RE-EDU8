@@ -9,7 +9,7 @@ const generateListItem = val => {
     li.classList.add(`li-${counter++}`);
     li.innerHTML = `${val}`;
     ul.appendChild(li);
-    div.innerHTML = `<input class="input-1" type="checkbox"/> <button class="btn-1" onclick="Delete(this)"></button>`;
+    div.innerHTML = `<button class="input-1"/></button> <button class="btn-1" onclick="Delete(this)"></button>`;
     li.appendChild(div);
 }
 
@@ -18,6 +18,7 @@ add.addEventListener('click', () => {
     generateListItem (input.value);
 
 })
+
 
 function Delete(btn) {
     const listItem = btn.closest('li');
