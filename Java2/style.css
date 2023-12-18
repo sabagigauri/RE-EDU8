@@ -44,6 +44,16 @@ position: relative;
   right: 48px;
 }
 
+#date {
+  position: absolute;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  top: 90px;
+  right: 48px;
+}
+
 .section {
     padding-inline: 29px;
     display: flex;

@@ -29,4 +29,5 @@ function Delete(btn) {
 
 setInterval(() => {
     document.getElementById('time').innerText = new Date().toLocaleTimeString();
+    document.getElementById('date').innerText = new Date().toLocaleDateString();
 }, 1000);
