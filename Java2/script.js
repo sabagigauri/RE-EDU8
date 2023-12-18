@@ -9,7 +9,7 @@ const generateListItem = val => {
     li.classList.add(`li-${counter++}`);
     li.innerHTML = `${val}`;
     ul.appendChild(li);
-    div.innerHTML = `<button class="input-1"/></button> <button class="btn-1" onclick="Delete(this)"></button>`;
+    div.innerHTML = `<input type="checkbox" class="input-1"/></button> <button class="btn-1" onclick="Delete(this)"></button>`;
     li.appendChild(div);
 }
 
@@ -26,3 +26,7 @@ function Delete(btn) {
         ul.removeChild(listItem); // Remove the found 'li' element
     }
 }
+
+setInterval(() => {
+    document.getElementById('time').innerText = new Date().toLocaleTimeString();
+}, 1000);
