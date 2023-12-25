@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whole-markup {
+    max-width: 375px;
+    background-image: url(bg-weather.png);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.search-type {
+    background: transparent;
+  color: white;
+  border: 0;
+
+}
+
+.search-location {
+flex-shrink: 0;
+border-bottom: 1px solid #FFF;
+}
+
+/* droebiti stilebi */
+
+.celsius {
+    color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -5.12px;
+}
+
+.location {
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.time {
+    color: #FFF;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.weather-icon {
+    color: #FFF;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 40px;
+}
+
+.weather-info {
+  display: flex;
+  gap: 20px;
+}
+
+.asd {
+    padding-top: 10px;
+}
+
+.blurred-section {
+    backdrop-filter: blur(9.5px);
+    background: transparent;
+    height: 658px;
+    border-bottom: 1px solid #FFF;
+}
+
+.weather-details {
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin: 55px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.temp-info {
+    display: flex;
+    gap: 15px;
+}
+
+.info-header {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.temp-max, .temp-min, .humadity, .cloudy, .wind p {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.temp-max, .temp-min, .humadity, .cloudy, .wind {
+    display: flex;
+    gap: 150px;
+    padding-inline: 50px;
+}

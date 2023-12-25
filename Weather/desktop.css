@@ -1,0 +1,9 @@
+@media screen and (min-width:1440px) {
+    .whole-markup {
+        background-image: url(./IMG/bg-weather\ \(2\).png);
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: auto;
+    }
+}

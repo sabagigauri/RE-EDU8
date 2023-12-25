@@ -1,0 +1,15 @@
+@media screen and (min-width:768px) {
+    .whole-markup {
+        max-width: 768px;
+        background-image: url(./IMG/bg-weather\ \(1\).png);
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .temp-max, .temp-min, .humadity, .cloudy, .wind {
+        display: flex;
+        gap: 200px;
+        padding-inline: 220px;
+    }
+}
