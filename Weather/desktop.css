@@ -6,4 +6,48 @@
         grid-template-columns: auto auto;
         margin: auto;
     }
+
+    .temp-max, .temp-min, .humadity, .cloudy, .wind {
+        padding-inline: 50px;
+    }
+
+    .temperature-section {
+        display: flex;
+  flex-direction: column;
+  gap: 30px;
+    }
+
+    .weather-details {
+        padding-top: 71px;
+        margin: 50px;
+        text-align: initial;
+    }
+
+    .info-header {
+        text-align: initial;
+        padding-left: 50px;
+    }
+
+    .search-location {
+        display: none;
+    }
+
+    .search-location2 {
+        flex-shrink: 0;
+        border-bottom: 1px solid #FFF;
+        width: 371px;
+    margin: 50px;
+    display: flex;
+    gap: 175px;
+    height: 50px;
+        }
+
+        .search-location2 .search-type::placeholder {
+            font-size: 16px; 
+        }
+
+        .main {
+            gap: 500px;
+        }
+        
 }
