@@ -1,0 +1,80 @@
+@media screen and (min-width:1440px) {
+    body {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-image: url(../Z-ICON/Main\(1\).png);
+        max-width: 1440px;
+    }
+
+    .header-2 {
+        border-radius: 34px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(14px);
+        width: 121px;
+        height: 100vh;
+    }
+
+    .zodiac {
+        border-radius: 34px;
+        background: rgba(0, 0, 0, 0.26);
+        backdrop-filter: blur(14px);
+        width: 1260px;
+        margin-left: 30px;
+    }
+
+    .twoColumn-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .first-column, .second-column {
+        gap: 70px;
+        flex-direction: initial;
+    }
+
+    .group {
+        display: none;
+    }
+
+    .second-header {
+        display: none;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+        border-bottom: 1px solid gray;
+    }
+
+    .name p {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block: 50px;
+        gap: 45px;
+    }
+
+    .icons img {
+        width: 32px;
+    }
+
+    .icons-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        gap: 45px;
+    }
+}

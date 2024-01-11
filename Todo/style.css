@@ -62,7 +62,7 @@ position: relative;
     flex-direction: column;
 }
 
-#textbox {
+.text-box {
     display: flex;
 padding: 12px 100px 13px 44px;
 align-items: center;
@@ -173,4 +173,8 @@ input[type="checkbox"]::before {
    position: absolute;
    border-radius: 100%;
    transition: transform 0.3s ease-in-out;
+ }
+
+ .timestamp {
+  color: gray;
  }

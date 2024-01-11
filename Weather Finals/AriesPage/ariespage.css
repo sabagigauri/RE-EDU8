@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background-image: url(../ICON/Main.png);
+    max-width: 428px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-2 {
+    padding-block: 20px;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 155px;
+}
+
+.group {
+    display: flex;
+    gap: 25px;
+}
+
+.aries {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    padding-block: 30px;
+}
+
+.header p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.overview-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.info {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    width: 369px;
+}
+
+.matching-zodiac {
+    display: flex;
+    flex-direction: column;
+    padding-block: 30px;
+    align-items: center;
+}
+
+.matching-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.matching-gemini {
+    text-align: center;
+    width: 369px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.health {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.health-descr {
+    text-align: center;
+    width: 369px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.carreer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 30px;
+}
+
+.carreer-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.carreer-descr {
+    text-align: center;
+    width: 369px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.love {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.love-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.love-descr {
+    text-align: center;
+    width: 369px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.video {
+    padding-block: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: none;
+}
+
+.icons {
+    display: none;
+}
+
+.icons-2 {
+    display: none;
+}
+
+.aries-desktop {
+    display: none;
+}

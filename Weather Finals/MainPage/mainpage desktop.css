@@ -1,0 +1,320 @@
+@media screen and (min-width: 1440px) {
+    body {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 20px;
+        max-width: none;
+        background: #121212; 
+    }
+
+    .header-2 {
+        border-radius: 34px;
+        background: url(../ICON/Main\(3\).png);
+        backdrop-filter: blur(14px);
+        width: 121px;
+    }
+
+    .group {
+        display: none;
+    }
+
+    .second-header {
+        display: none;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+        border-bottom: 1px solid gray;
+    }
+
+    .name p {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block: 50px;
+        gap: 45px;
+    }
+
+    .icons img {
+        width: 32px;
+    }
+
+    .icons-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        gap: 45px;
+    }
+
+    .rectangle-1 {
+        display: none;
+    }
+
+    .weather-info {
+        border-radius: 34px;
+        background: url(../ICON/Main\(2\).png);
+        backdrop-filter: blur(14px);
+        width: 420px;
+        height: 540px;
+        flex-shrink: 0;
+        margin-left: -20px;
+    }
+
+    .rectangle-2 {
+        position: absolute;
+        top: 570px;
+        left: 170px;
+    }
+
+    .rectangle-child {
+         width: 417px;
+         height: 327px;
+         overflow-y: scroll;
+         background: url(../ICON/Rectangle\ 12.png);
+         z-index: 1;
+    }
+
+    .Phases {
+        margin-top: -10px;
+    }
+
+    .phases-parent {
+        border-radius: 34px;
+        background: url(../ICON/Main\(4\).png);
+        backdrop-filter: blur(14px);
+        width: 1174px;
+        height: 540px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+    }
+
+    .phases-rectangle {
+        width: 352px;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .moon-img {
+        margin: 5px 85px;
+    }
+
+    .UV-img {
+        margin: 1px 3px;
+        width: 346px;
+    }
+
+    .header-weather p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.4px;
+    }
+
+    .header-weather {
+        display: flex;
+        justify-content: space-around;
+        padding-block: 30px;
+        gap: 50px;
+    }
+
+    .header-weather img  {
+        width: 69px;
+    }
+
+    .Cities {
+        display: none;
+    }
+
+    .sun {
+        width: 195px;
+    }
+
+    .wrapper-2 {
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid grey;
+        padding-bottom: 80px;
+        
+    }
+
+    .num {
+        font-size: 40px;
+        text-align: initial;
+    }
+
+    .o {
+        align-items: initial;
+        justify-content: center;
+    }
+
+    .weather-condition {
+        text-align: initial;
+    }
+
+    .bottom {
+        display: flex;
+        padding-block: 30px;
+        padding-inline: 15px;
+        gap: 10px;
+    }
+
+    .location {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .day-month {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .time {
+        color: rgba(255, 255, 255, 0.90);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .bottom-2 a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.14px;
+        text-decoration-line: underline;
+        margin-left: 25px;
+    }
+
+    .bottom-2 {
+        display: flex;
+        padding-inline: 15px;
+        gap: 10px;
+    }
+
+    .phase-status {
+        font-size: 22px;
+    }
+
+    .humidity-info {
+        margin-left: 20px;
+        gap: 125px;
+        justify-content: initial;
+    }
+
+    .percentage {
+        font-size: 22px;
+    }
+
+    .percentage strong {
+        font-size: 60px;
+    }
+
+    .Humidity-img {
+        margin-top: -50px;
+    }
+
+    .dev-point {
+        margin-left: 240px;
+        margin-top: -50px;
+    }
+
+    .visibility-info {
+        margin-left: 20px;
+        gap: 95px;
+        justify-content: initial;
+        align-items: initial;
+    }
+
+    .percentage {
+        font-size: 22px;
+    }
+
+    .affect {
+        margin-left: 220px;
+        margin-top: -50px;
+}
+    
+    .feel-paragraph {
+        margin-left: 190px;
+         margin-top: -50px;
+    }
+
+    .advertise {
+        border-radius: 34px;
+        background: url(../ICON/Main\(5\).png);
+        backdrop-filter: blur(14px); 
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+
+    .wrapper-4 {
+        display: initial;
+    }
+
+    .fix {
+        border-radius: 18px;
+        background: #121212;
+        width: 378px;
+        height: 119px;
+        flex-shrink: 0;
+        position: fixed;
+        display: flex;
+        top: 750px;
+        padding-inline: 20px;
+        gap: 30px;
+        z-index: 2;
+    }
+
+    .fix-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fix-wrapper p {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.42px;
+    }
+
+    .sunn {
+        width: 56px;
+    }
+}
